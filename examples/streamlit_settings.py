@@ -17,3 +17,7 @@ class MySettings(sp.StreamlitSettings):
 
 
 st.json(MySettings().dict())
+
+
+# Does not work with v1 - streamlit-settings.py
+# Does not work with v2 - streamlit-settings.py, overwrite_streamlit_args.py, data_validation.py, dataclass_form.py, complex_showcase.py, complex_disabled_showcase.py, complex_instance_model.py
